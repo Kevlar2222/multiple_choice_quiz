@@ -10,10 +10,26 @@ Quiz.prototype.getQuestionIndex = function() {
  
 Quiz.prototype.guess = function(answer) {
     if(this.getQuestionIndex().isCorrectAnswer(answer)) {
+        document.getElementById("btn0").style.opacity = 1;
+        document.getElementById("btn1").style.opacity = 1;
+        document.getElementById("btn2").style.opacity = 1;
+        document.getElementById("btn3").style.opacity = 1;
         this.score++;
+        this.questionIndex++;
     }
- 
-    this.questionIndex++;
+    else {
+        this.score--;
+        var choices = quiz.getQuestionIndex().choices;
+        for(var i = 0; i < choices.length; i++) {
+            var element = document.getElementById("btn" + i);
+            if(this.getQuestionIndex().isCorrectAnswer(choices[i])){
+                element.style.opacity = 1;
+            }
+            else {
+                element.style.opacity = 0.6;
+            }
+        }
+    }   
 }
  
 Quiz.prototype.isEnded = function() {
@@ -65,12 +81,12 @@ function guess(id, guess) {
 function showProgress() {
     var currentQuestionNumber = quiz.questionIndex + 1;
     var element = document.getElementById("progress");
-    element.innerHTML = "Question " + currentQuestionNumber + " of " + quiz.questions.length;
+    element.innerHTML = "Correct: " + quiz.score + " of " + quiz.questions.length;
 };
  
 function showScores() {
     var gameOverHTML = "<h1>Result</h1>";
-    gameOverHTML += "<h2 id='score'> Your scores: " + quiz.score + "</h2>";
+    gameOverHTML += "<h2 id='score'> Your score: " + quiz.score + "</h2>";
     var element = document.getElementById("quiz");
     element.innerHTML = gameOverHTML;
 };
