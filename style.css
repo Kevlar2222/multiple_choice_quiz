@@ -1,11 +1,12 @@
 body {
     background-color: #413D3D;
+    height: 100%;
 }
  
 .grid {
-    width: 600px;
-    height: 500px;
-    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+    margin: 20px auto;
     background-color: #fff;
     padding: 10px 50px 50px 50px;
     border: 2px solid #cbcbcb;
@@ -40,11 +41,11 @@ body {
  
 #btn0, #btn1, #btn2, #btn3 {
     background-color: #01BBFF;
-    width: 250px;
-    font-size: 20px;
+    width: 380px;
+    font-size: 33px;
     color: #fff;
     border: 1px solid #1D3C6A;
-    margin: 10px 40px 10px 0px;
+    margin: 10px 40px 10px 70px;
     padding: 10px 10px;
 }
  
