@@ -93,11 +93,11 @@ function showScores() {
  
 // create questions here
 var questions = [
-    new Question("What do you call a man who grows mushrooms?", ["Mushroom Man", "Farmer John","Funghi", "Miss"], "Funghi"),
-    new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "XML"], "CSS"),
-    new Question("Which is not a JavaScript Framework?", ["Python Script", "JQuery","Django", "NodeJS"], "Django"),
-    new Question("Which is used for Connect To Database?", ["PHP", "HTML", "JS", "All"], "PHP"),
-    new Question("Webdevtrick.com is about..", ["Web Design", "Graphic Design", "SEO & Development", "All"], "All")
+    new Question("What grows on a tree?", ["Carrots", "Tigers","Oranges", "Potatoes"], "Oranges"),
+    new Question("What grows in the ground?", ["Olives", "Potatoes", "Apples", "Bananas"], "Potatoes"),
+    new Question("Which one is right?", ["Oraneges", "Oranges","Oranes", "Orranges"], "Oranges"),
+    new Question("Where do bananas grow?", ["On a tree", "Under a tree", "In the ground", "In the zoo"], "On a tree"),
+    new Question("Where do onions grow?", ["On a tree", "In the sky", "In a book", "In the ground"], "In the ground")
 ];
  
 // create quiz
