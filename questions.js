@@ -97,7 +97,7 @@ var questions = [
     new Question("What grows in the ground?", ["Olives", "Potatoes", "Apples", "Bananas"], "Potatoes"),
     new Question("Which one is right?", ["Oraneges", "Oranges","Oranes", "Orranges"], "Oranges"),
     new Question("Where do bananas grow?", ["On a tree", "Under a tree", "In the ground", "In the zoo"], "On a tree"),
-    new Question("Where do onions grow?", ["On a tree", "In the sky", "In a book", "In the ground"], "In the ground")
+    new Question("Where do carrots grow?", ["On a tree", "In the sky", "In a book", "In the ground"], "In the ground")
 ];
  
 // create quiz
