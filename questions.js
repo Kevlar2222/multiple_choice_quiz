@@ -93,7 +93,7 @@ function showScores() {
  
 // create questions here
 var questions = [
-    new Question("Shark", ["/shɑrk/", "/tʃɑːk/","/shærk/", "Potatoes"], "/ʃɑːk/"),
+    new Question("Shark", ["/shɑrk/", "/tʃɑːk/","/shærk/", "/ʃɑːk/"], "/ʃɑːk/"),
     new Question("Bank", ["/bɑnk/", "/bænk/", "/bæŋk/", "/bæŋck/"], "/bæŋk/"),
     new Question("Cough", ["/cof/", "/kɒf/","/kɔːf/", "/kɜːrf/"], "/kɒf/"),
     new Question("Seed", ["/siːd/", "/sɪd/", "/seed/", "/θId/"], "/siːd/"),
