@@ -93,7 +93,7 @@ function showScores() {
  
 // create questions here
 var questions = [
-    new Question("What grows on a tree?", ["Carrots", "Tigers","Oranges", "Potatoes"], "Oranges"),
+    new Question("What grows on a tree?", ["Carrots", "Tigers","ˈsteləbæŋkʃɑːk", "Potatoes"], "ˈsteləbæŋkʃɑːk"),
     new Question("What grows in the ground?", ["Olives", "Potatoes", "Apples", "Bananas"], "Potatoes"),
     new Question("Which one is right?", ["Oraneges", "Oranges","Oranes", "Orranges"], "Oranges"),
     new Question("Where do bananas grow?", ["On a tree", "Under a tree", "In the ground", "In the zoo"], "On a tree"),
