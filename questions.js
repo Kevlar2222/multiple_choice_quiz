@@ -93,11 +93,16 @@ function showScores() {
  
 // create questions here
 var questions = [
-    new Question("What grows on a tree?", ["Carrots", "Tigers","ˈsteləbæŋkʃɑːk", "Potatoes"], "ˈsteləbæŋkʃɑːk"),
-    new Question("What grows in the ground?", ["Olives", "Potatoes", "Apples", "Bananas"], "Potatoes"),
-    new Question("Which one is right?", ["Oraneges", "Oranges","Oranes", "Orranges"], "Oranges"),
-    new Question("Where do bananas grow?", ["On a tree", "Under a tree", "In the ground", "In the zoo"], "On a tree"),
-    new Question("Where do carrots grow?", ["On a tree", "In the sky", "In a book", "In the ground"], "In the ground")
+    new Question("Shark", ["/shɑrk/", "/tʃɑːk/","/shærk/", "Potatoes"], "/ʃɑːk/"),
+    new Question("Bank", ["/bɑnk/", "/bænk/", "/bæŋk/", "/bæŋck/"], "/bæŋk/"),
+    new Question("Cough", ["/cof/", "/kɒf/","/kɔːf/", "/kɜːrf/"], "/kɒf/"),
+    new Question("Seed", ["/siːd/", "/sɪd/", "/seed/", "/θId/"], "/siːd/"),
+    new Question("Temperature", ["/ˈtempɔːʧə/", "/tem'perɪtə/", "/ˈtemprɪʧə/", "/ˈtemprəʧɜː/"], "/ˈtemprɪʧə/")
+    new Question("10 is ______ than 8.", ["bigger", "biggest","biger", "the best"], "bigger"),
+    new Question("A is ______ than F.", ["bigger", "goodder", "worse", "better"], "better"),
+    new Question("A monkey is _____ than a mouse.", ["smaller", "shorter","rounder", "naughtier"], "naughtier"),
+    new Question("They ______ at home yesterday.", ["was", "were", "is", "are"], "were"),
+    new Question("A big group of musicians.", ["orchestra", "percussion", "instruments", "classical"], "orchestra")
 ];
  
 // create quiz
