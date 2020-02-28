@@ -76,7 +76,7 @@ span.A {
     padding: 10px;
     position: absolute;
     left: 320px;
-    bottom: 380px;
+    bottom: 382px;
     z-index: 1;
 
     background: #fff;
@@ -90,7 +90,7 @@ span.B {
     padding: 10px;
     position: absolute;
     left: 810px;
-    bottom: 375px;
+    bottom: 382px;
     z-index: 1;
 
     background: #fff;
@@ -104,7 +104,7 @@ span.C {
     padding: 10px;
     position: absolute;
     left: 320px;
-    bottom: 290px;
+    bottom: 292px;
     z-index: 1;
 
     background: #fff;
@@ -117,7 +117,7 @@ span.D {
     padding: 10px;
     position: absolute;
     left: 810px;
-    bottom: 295px;
+    bottom: 292px;
     z-index: 1;
 
     background: #fff;
