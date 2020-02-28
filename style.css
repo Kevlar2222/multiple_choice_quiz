@@ -76,7 +76,7 @@ span.A {
     padding: 10px;
     position: absolute;
     left: 320px;
-    bottom: 418px;
+    bottom: 400px;
     z-index: 1;
 
     background: #fff;
@@ -90,7 +90,7 @@ span.B {
     padding: 10px;
     position: absolute;
     left: 810px;
-    bottom: 418px;
+    bottom: 400px;
     z-index: 1;
 
     background: #fff;
