@@ -97,7 +97,7 @@ var questions = [
     new Question("Bank", ["/bɑnk/", "/bænk/", "/bæŋk/", "/bæŋck/"], "/bæŋk/"),
     new Question("Cough", ["/cof/", "/kɒf/","/kɔːf/", "/kɜːrf/"], "/kɒf/"),
     new Question("Seed", ["/siːd/", "/sɪd/", "/seed/", "/θId/"], "/siːd/"),
-    new Question("Temperature", ["/ˈtempɔːʧə/", "/tem'perɪtə/", "/ˈtemprɪʧə/", "/ˈtemprəʧɜː/"], "/ˈtemprɪʧə/")
+    new Question("Temperature", ["/ˈtempɔːʧə/", "/tem'perɪtə/", "/ˈtemprɪʧə/", "/ˈtemprəʧɜː/"], "/ˈtemprɪʧə/"),
     new Question("10 is ______ than 8.", ["bigger", "biggest","biger", "the best"], "bigger"),
     new Question("A is ______ than F.", ["bigger", "goodder", "worse", "better"], "better"),
     new Question("A monkey is _____ than a mouse.", ["smaller", "shorter","rounder", "naughtier"], "naughtier"),
